@@ -1,14 +1,28 @@
 body{
-    text-align:center;
-    background-color: aquamarine;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 2%, rgba(45,126,253,1) 97%);
+    border-style:solid;
 }
-img{
-    width:500px;
-    height:500px;
-    border-radius: 20px;
-    transition: transform .2s;
-    border: 10px solid #AAAAAA;
+
+
+#apps{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 2%, rgba(253,152,45,1) 97%);
 }
-img:hover{
-    transform: scale(0.9);
+
+#myCarousel{
+   background-color: red;
+}
+#myCarousel img{
+height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    margin-bottom: 70px;
+    margin-top: 8px;
+    color: white;
+    font-size: 20px;
+}
+.sp img{
+   height:300px;
+    width:400px;
 }
